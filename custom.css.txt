@@ -1,0 +1,29 @@
+/* 整体背景 - 渐变梦幻紫 */
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #ffecd2);
+}
+
+/* 文章卡片背景 - 半透明白 */
+.post-entry, .post-content {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+/* 标题颜色 - 彩虹渐变 */
+h1, h2, h3 {
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* 链接颜色 */
+a {
+  color: #ff6b9d;
+}
+
+/* 顶部导航栏 */
+.header {
+  background: linear-gradient(90deg, #667eea, #764ba2);
+}
