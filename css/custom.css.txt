@@ -1,29 +1,43 @@
-/* 整体背景 - 渐变梦幻紫 */
+/* 整体页面背景 - 浅色渐变 */
 body {
-  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #ffecd2);
+  background: linear-gradient(135deg, #ffecd2, #fcb69f, #ff9a9e, #fad0c4);
+  background-attachment: fixed;
 }
 
-/* 文章卡片背景 - 半透明白 */
-.post-entry, .post-content {
-  background: rgba(255, 255, 255, 0.85);
+/* 文章卡片 - 白色半透明 */
+.post-entry {
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 12px;
-  padding: 20px;
+  padding: 18px;
+  margin-bottom: 15px;
+  border-left: 4px solid #ff6b9d;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* 标题颜色 - 彩虹渐变 */
-h1, h2, h3 {
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-/* 链接颜色 */
-a {
-  color: #ff6b9d;
-}
-
-/* 顶部导航栏 */
+/* 顶部导航栏 - 彩色 */
 .header {
   background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+.nav a {
+  color: #fff;
+}
+
+/* 标题颜色 - 深紫 */
+h1, h2, h3 {
+  color: #5b2c6f;
+}
+
+/* 链接颜色 - 粉 */
+a {
+  color: #e91e63;
+}
+
+/* 按钮 */
+button, .button {
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+  border: none;
+  color: #333;
+  border-radius: 8px;
+  padding: 8px 16px;
 }
